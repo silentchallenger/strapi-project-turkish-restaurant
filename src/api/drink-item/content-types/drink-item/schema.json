@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "drink_items",
+  "info": {
+    "singularName": "drink-item",
+    "pluralName": "drink-items",
+    "displayName": "Drink-Item",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "drink_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::drink-category.drink-category",
+      "inversedBy": "drink_items"
+    },
+    "PriceAndQuantity": {
+      "type": "component",
+      "repeatable": true,
+      "component": "drink-item-components.price-quantity"
+    }
+  }
+}

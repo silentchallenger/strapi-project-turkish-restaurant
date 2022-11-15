@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_drink_item_components_price_quantities",
+  "info": {
+    "displayName": "PriceQuantity",
+    "icon": "money-bill",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Price": {
+      "type": "decimal"
+    },
+    "Quantity": {
+      "type": "enumeration",
+      "enum": [
+        "One",
+        "Six oz",
+        "Nine oz",
+        "Bottle"
+      ]
+    }
+  }
+}
