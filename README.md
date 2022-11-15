@@ -1,5 +1,5 @@
 # Turkish Restaurant Project
-
+Author: Rustu Mesut Eser
 ## Summary
 Client wants to have a website for his Turkish restaurant. Client has several stores of restaurant. He wants to put restaurant's food and drink menu onto the website, including their image and price.
 
