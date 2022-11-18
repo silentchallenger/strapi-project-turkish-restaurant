@@ -28,6 +28,16 @@
       "type": "component",
       "repeatable": true,
       "component": "drink-item-components.price-quantity"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
